@@ -1,0 +1,49 @@
+########################################
+# Building with pymol                  #
+########################################
+
+Полезная ссылка
+########################################
+https://pymolwiki.org/index.php/Modeling_and_Editing_Structures
+########################################
+
+#3 способа создать цепь
+1. Alt+A/D/K...
+2. fab AAAAAA, ss=1
+fab CHEMISTRY, name-helix, ss=1 
+fab CHEMISTRY, name-anti, ss=2 
+fab CHEMISTRY, name-para, ss=3 
+3. Через профиль Builder
+
+#Соединить последовательно
+pick N-terminus
+pick C-terminus
+
+fuse
+
+#reinitialize
+rein
+
+#Загрузить белок
+fetch 7LR0
+#Очистить от всего, кроме белка
+remove ! polymer.protein
+#разделить по цепям
+split_chains
+#покрасить цепи - chain by chain
+util.cbc
+#убрать их (если не вручную)
+disable 7LR0_A
+disable 7LR0_B
+disable 7LR0_C
+#выделяем часть белка
+sele test_chain, resid 663:671 and 7LR0_D
+hide cartoon, not test_chain
+orient test_chain
+show sticks, test_chain
+#Измеряем торсионные углы
+Wizard->Measurments
+
+#изменить торсионные углы
+ctr+right_click
+#small_molecules
