@@ -1,0 +1,12 @@
+#
+#
+#  Percent Identity  Matrix - created by Clustal2.1 
+#
+#
+
+     1: sp|Q9H1D0|TRPV6_HUMAN  100.00   74.41   27.82   29.40   28.37   28.02
+     2: sp|Q9NQA5|TRPV5_HUMAN   74.41  100.00   28.33   29.47   28.16   27.52
+     3: sp|Q8NET8|TRPV3_HUMAN   27.82   28.33  100.00   41.49   41.86   38.22
+     4: sp|Q9HBA0|TRPV4_HUMAN   29.40   29.47   41.49  100.00   45.58   43.20
+     5: sp|Q8NER1|TRPV1_HUMAN   28.37   28.16   41.86   45.58  100.00   46.82
+     6: sp|Q9Y5S1|TRPV2_HUMAN   28.02   27.52   38.22   43.20   46.82  100.00

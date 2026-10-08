@@ -1,0 +1,35 @@
+
+
+ DIST   = percentage divergence (/100)
+ Length = number of sites used in comparison
+
+   1 vs.   2  DIST = 0.2559;  length =    723
+   1 vs.   3  DIST = 0.7218;  length =    665
+   1 vs.   4  DIST = 0.7060;  length =    704
+   1 vs.   5  DIST = 0.7163;  length =    712
+   1 vs.   6  DIST = 0.7198;  length =    653
+   2 vs.   3  DIST = 0.7167;  length =    646
+   2 vs.   4  DIST = 0.7053;  length =    682
+   2 vs.   5  DIST = 0.7184;  length =    689
+   2 vs.   6  DIST = 0.7248;  length =    636
+   3 vs.   4  DIST = 0.5851;  length =    764
+   3 vs.   5  DIST = 0.5814;  length =    743
+   3 vs.   6  DIST = 0.6178;  length =    709
+   4 vs.   5  DIST = 0.5442;  length =    803
+   4 vs.   6  DIST = 0.5680;  length =    743
+   5 vs.   6  DIST = 0.5318;  length =    754
+
+
+			UPGMA Method
+
+
+ This is a ROOTED tree
+
+ Numbers in parentheses are branch lengths
+
+
+ Cycle   1     = SEQ: 1 (  0.12794) joins SEQ:    2 (  0.12794)
+ Cycle   2     = SEQ: 5 (  0.26592) joins SEQ:    6 (  0.26592)
+ Cycle   3     = SEQ: 4 (  0.27804) joins NODE:    5 (  0.27804)
+ Cycle   4     = SEQ: 3 (  0.29738) joins NODE:    4 (  0.29738)
+ Cycle   5     = NODE: 1 (  0.35807) joins NODE:    3 (  0.35807)
