@@ -1,0 +1,14 @@
+"C:\Program Files (x86)\The Scripps Research Institute\Vina\vina.exe" --receptor protein.pdb --ligand ligand.pdbqt --config config.txt --log log.txt --out output.pdbqt
+
+
+"C:\Program Files (x86)\The Scripps Research Institute\Vina\vina_split.exe" --input output.pdbq
+
+"C:\Program Files (x86)\The Scripps Research Institute\Vina\vina.exe" --receptor receptor.pdbqt --ligand output2_ligand_1.pdbqt --score_only
+"C:\Program Files (x86)\The Scripps Research Institute\Vina\vina.exe" --receptor receptor.pdbqt --ligand output2_ligand_9.pdbqt --score_only
+
+Term	Δ (pose 1 − pose 9)
+gauss 1	    −0.47
+gauss 2	    −1.07
+repulsion	−0.80
+Hydrogen	−0.99
+hydrophobic	−0.04

@@ -1,0 +1,13 @@
+receptor = receptor.pdb
+ligand = ligand.pdbqt
+
+center_x = 115.722
+center_y = 136.065
+center_z = 123.742
+
+size_x = 40
+size_y = 40
+size_z = 40
+
+energy_range = 4
+exhaustiveness = 32
